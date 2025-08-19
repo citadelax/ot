@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Tools</title>
+  <!-- Favicon with blue-to-green gradient and letter C -->
+  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"><defs><linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:%232196f3;stop-opacity:1" /><stop offset="100%" style="stop-color:%234caf50;stop-opacity:1" /></linearGradient></defs><rect width="100%" height="100%" fill="url(%23grad)" rx="12"/><text x="50%" y="55%" font-size="38" font-family="Arial" font-weight="bold" fill="white" text-anchor="middle" alignment-baseline="middle">C</text></svg>' type="image/svg+xml" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      margin: 20px 0;
+      font-size: 2.5rem;
+      text-align: center;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      width: 90%;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    .grid-container a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: #ffffff22;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2rem;
+      padding: 20px;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .grid-container a i {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    .grid-container a:hover {
+      background-color: #ffffff44;
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .grid-container a:hover i {
+      color: #ffeb3b;
+      transform: rotate(10deg);
+    }
+  </style>
+</head>
+<body>
+  <h1>Online Tools</h1>
+  <div class="grid-container">
+    <a href="https://citadelax.github.io/socialbox/" target="_blank">
+      <i class="fas fa-users"></i>
+      SOCIAL MEDIA
+    </a>
+    <a href="https://citadelax.github.io/ncode/" target="_blank">
+      <i class="fas fa-code"></i>
+      DOWNLOAD ENGINES
+    </a>
+    <a href="https://citadelax.github.io/sportsbook/" target="_blank">
+      <i class="fas fa-football-ball"></i>
+      SPORTSBOOK
+    </a>
+    <a href="https://citadelax.github.io/topwebz/" target="_blank">
+      <i class="fas fa-globe"></i>
+      TOP WEBSITES
+    </a>
+  </div>
+</body>
+</html>
